@@ -1,20 +1,20 @@
-# calculatorprogram
-x = int(input("Enter first number : "))
-y = int(input("Enter second number : "))
-choice = input("Enter your choice ('+','-','*','/','//','**')");
-if choice == '+':
-    print("Addition " ,x+y )
-elif choice == '-':
-    print("substraction" ,x-y)
-elif choice == '*':
-    print("Multiplication", x*y)
-elif choice == '/':
-    print("Division" ,x/y)
-elif choice == '//':
-    print("Floor Division ", x//y)
-elif choice == '%':
-    print("Module" , x%y)
-elif choice == '**':
-    print("Exponention ", x**y)
-else:
-    print("Invalid input")
+# calculatorprogram<br>
+x = int(input("Enter first number : "))<br>
+y = int(input("Enter second number : "))<br>
+choice = input("Enter your choice ('+','-','*','/','//','**')");<br>
+if choice == '+':<br>
+    print("Addition " ,x+y )<br>
+elif choice == '-':<br>
+    print("substraction" ,x-y)<br>
+elif choice == '*':<br>
+    print("Multiplication", x*y)<br>
+elif choice == '/':<br>
+    print("Division" ,x/y)<br>
+elif choice == '//':<br>
+    print("Floor Division ", x//y)<br>
+elif choice == '%':<br>
+    print("Module" , x%y)<br>
+elif choice == '**':<br>
+    print("Exponention ", x**y)<br>
+else:<br>
+    print("Invalid input")<br>
